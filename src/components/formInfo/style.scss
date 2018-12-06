@@ -6,3 +6,33 @@
     left: 1%;
     background-color: #fbeed7;
 }
+@media screen and (min-width:480px) { 
+    .formInfo {
+        width: 45%;
+        height: 37%;
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        background-color: #fbeed7;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    .formInfo {
+        width: 45%;
+        height: 37%;
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        background-color: #fbeed7;
+    }
+}
+@media screen and (min-width:1024px) {
+    .formInfo {
+        width: 45%;
+        height: 37%;
+        position: absolute;
+        bottom: 1%;
+        left: 1%;
+        background-color: #fbeed7;
+    }
+}

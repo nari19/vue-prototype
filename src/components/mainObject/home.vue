@@ -1,6 +1,7 @@
 <template>
   <div class="mainObject">
     <h1>{{ msg }}</h1>
+    <object type="image/svg+xml" data="https://af.nari19.me/one_line/OneLine5.svg" width="60%"></object>
   </div>
 </template>
 

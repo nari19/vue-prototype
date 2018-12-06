@@ -6,3 +6,34 @@
     right: 1%;    
     background-color: #ffba5a;
 }
+
+@media screen and (min-width:480px) { 
+    .subObject {
+        width: 27%;
+        position: absolute;
+        top: 9%;
+        bottom: 1%;
+        right: 1%;    
+        background-color: #ffba5a;
+    }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    .subObject {
+        width: 27%;
+        position: absolute;
+        top: 9%;
+        bottom: 1%;
+        right: 1%;    
+        background-color: #ffba5a;
+    }
+}
+@media screen and (min-width:1024px) {
+    .subObject {
+        width: 27%;
+        position: absolute;
+        top: 9%;
+        bottom: 1%;
+        right: 1%;    
+        background-color: #ffba5a;
+    }
+}
