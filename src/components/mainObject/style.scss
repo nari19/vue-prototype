@@ -7,10 +7,20 @@
     background-color: #ff7657;
 }
 
-@media screen and (min-width:480px) { 
+@media screen and (max-width:480px) { // custom
     .mainObject {
-        width: 70%;
-        height: 51%;
+        width: 98%;
+        height: 38%;
+        position: absolute;
+        top: 9%;
+        left: 1%;
+        background-color: #ff7657;
+    }
+}
+@media screen and (min-width:480px) and (max-width:768px) { // custom
+    .mainObject {
+        width: 98%;
+        height: 45%;
         position: absolute;
         top: 9%;
         left: 1%;

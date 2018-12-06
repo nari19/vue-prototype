@@ -7,13 +7,23 @@
     background-color: #665c84;
 }
 
-@media screen and (min-width:480px) { 
+@media screen and (max-width:480px) { // custom
     .textInfo {
-        width: 24%;
-        height: 37%;
+        width: 98%;
+        height: 25%;
         position: absolute;
         bottom: 1%;
-        left: 47%;
+        left: 1%;
+        background-color: #665c84;
+    }
+}
+@media screen and (min-width:480px) and (max-width:768px) { // custom
+    .textInfo {
+        width: 43%;
+        height: 44%;
+        position: absolute;
+        bottom: 1%;
+        left: 56%;
         background-color: #665c84;
     }
 }
