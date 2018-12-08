@@ -1,16 +1,11 @@
 <template>
   <div id="app">
-
     <div id="nav">
-      <div style="float:left;margin-left:10px;">
-        <img alt="Vue logo" src="./assets/logo.png" width="33px">
-      </div>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+        <router-link to="/">ACTIVE-FRAME</router-link>
+        <router-link to="/about">About</router-link>
     </div>
-
     <div id="content">
-      <router-view/>
+        <router-view/>
     </div>
 
   </div>
@@ -34,10 +29,12 @@
   top: 0;
   background-color: #d7f7f5;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-align: left;
   a {
     font-weight: bold;
     font-size: 23px;
     color: #444;
+    margin-left:15px;
     &.router-link-exact-active {
       color: #42b983;
     }
