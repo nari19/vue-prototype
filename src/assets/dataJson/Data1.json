@@ -1,21 +1,36 @@
 [
-    
-{
-    "id":4, "folda_name":"one_line", "file_name":"OneLine",
-    "num": 7, "text": true, "type": ["typ"],
+  {
+    "id":5, "folda_name":"one_line", "file_name":"OneLine",
+    "num": "5-7", "text": true, "type": ["typ"],
     "options": {
       "a": "Patua One"
     }
-    
 },
 {
-    "id":5, "folda_name": "typ_ascender", "file_name": "TypAscender",
-    "num": 3, "text": true, "type": ["typ"],
+    "id":4, "folda_name":"one_line", "file_name":"OneLine",
+    "num": "0-4", "text": true, "type": ["typ"],
     "options": {
-      "a": "if it can",
-      "b": "be imagined",
-      "c": "it can be",
-      "d": "created."
+      "a": "One Line"
     }
+},
+{
+    "id":3, "folda_name":"few_lines", "file_name":"FewLines",
+    "num": "0-4", "text": true, "type": ["typ"],
+    "options": {
+      "a": "This moist Lemon Cake Recipe is fluffy,",
+      "b": "tangy and so easy to make from scratch!",
+      "c": "Every bite of this supremely moist pound",
+      "d": "cake is bursting with fresh lemon flavor",
+      "e": "and the easy lemon glaze on top will have",
+      "f": "you hooked after just one bite. "
+    }
+},
+{
+    "id":2, "folda_name":"stop_watch", "file_name":"StopWatch",
+    "num": "0-4", "text": false, "type": ["func"]
+},
+{
+    "id":1, "folda_name": "semantic_clock", "file_name": "SemanticClock",
+    "num": "0-4", "text": false, "type": ["func"]
 }  
 ]
