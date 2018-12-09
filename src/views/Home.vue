@@ -3,7 +3,7 @@
     <MainObject msg="MainObject"/>
     <SubObject msg="SubObject"/>
     <FormInfo msg="FormInfo"/>
-    <TextInfo msg="TextInfo"/>
+    <TextInfo msg="TextInfo" />
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
     FormInfo,
     TextInfo
   }
-};
+}
 </script>
 
 <style lang="scss">
