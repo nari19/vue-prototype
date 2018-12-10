@@ -7,28 +7,39 @@
     background-color: #ffba5a;
 }
 
-@media screen and (max-width:768px) { // custom
+@media screen and (max-width:480px) { // custom
     .subObject {
-        display: none;
+        width: 250px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 25;
+    }
+}
+@media screen and (min-width:480px) and (max-width:768px) { // custom
+    .subObject {
+        width: 300px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 25;
     }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     .subObject {
         width: 27%;
-        position: absolute;
         top: 9%;
         bottom: 1%;
-        right: 1%;    
-        background-color: #ffba5a;
+        right: 1%;
     }
 }
 @media screen and (min-width:1024px) {
     .subObject {
         width: 27%;
-        position: absolute;
         top: 9%;
         bottom: 1%;
         right: 1%;    
-        background-color: #ffba5a;
     }
 }

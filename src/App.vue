@@ -3,6 +3,7 @@
     <div id="nav">
         <router-link to="/">ACTIVE-FRAME</router-link>
         <router-link to="/about">About</router-link>
+        <img src="./assets/images/menu.svg" alt="menu" id="rightMenu"/>
     </div>
     <div id="content">
         <router-view/>
@@ -23,12 +24,12 @@
 
 #nav {
   z-index: 20;
-  padding: 10px;
+  padding: 12px 10px 10px 10px;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: #d7f7f5;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
   text-align: left;
   a {
     font-weight: bold;
@@ -37,6 +38,19 @@
     margin-left:15px;
     &.router-link-exact-active {
       color: #42b983;
+    }
+  }
+  #rightMenu {
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 4px;
+  }
+  @media screen and (min-width:768px) { // custom
+    #rightMenu {
+      display: none;
     }
   }
 }

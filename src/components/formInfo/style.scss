@@ -11,39 +11,31 @@
     .formInfo {
         width: 98%;
         height: 25%;
-        position: absolute;
         bottom: 27%;
         left: 1%;
-        background-color: #fbeed7;
     }
 }
 @media screen and (min-width:480px) and (max-width:768px) { // custom
     .formInfo {
         width: 54%;
         height: 44%;
-        position: absolute;
         bottom: 1%;
         left: 1%;
-        background-color: #fbeed7;
     }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     .formInfo {
         width: 45%;
         height: 37%;
-        position: absolute;
         bottom: 1%;
         left: 1%;
-        background-color: #fbeed7;
     }
 }
 @media screen and (min-width:1024px) {
     .formInfo {
         width: 45%;
         height: 37%;
-        position: absolute;
         bottom: 1%;
         left: 1%;
-        background-color: #fbeed7;
     }
 }
