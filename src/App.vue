@@ -3,7 +3,7 @@
     <div id="nav">
         <router-link to="/">ACTIVE-FRAME</router-link>
         <router-link to="/about">About</router-link>
-        <img src="./assets/images/menu.svg" alt="open_menu" id="rightMenu"/>
+        <Menu />
     </div>
     <div id="content">
         <router-view/>
@@ -11,6 +11,18 @@
 
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import Menu from "@/components/menu.vue";
+
+export default {
+  name: "app",
+  components: {
+    Menu
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -30,7 +42,7 @@
 }
 
 #nav {
-  z-index: 20;
+  z-index: 15;
   padding: 12px 10px 10px 10px;
   width: 100%;
   position: fixed;
@@ -45,19 +57,6 @@
     margin-left:15px;
     &.router-link-exact-active {
       color: #42b983;
-    }
-  }
-  #rightMenu{
-    width: 24px;
-    height: 24px;
-    float: right;
-    margin-right: 30px;
-    position: relative;
-    top: 4px;
-  }
-  @media screen and (min-width:768px) { // custom
-    #rightMenu {
-      display: none;
     }
   }
 }
