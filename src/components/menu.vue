@@ -12,14 +12,19 @@
 
 <script>
 export default {
-  name: "menu",
-  el: "#app",   //look later
   data(){
  　  return {
    　   isActive:false
-   　}
-　}
-};
+   　};
+　},
+  computed: {
+    sideMenu: function() {
+      if(isActive == false) {
+        
+      }
+    }
+  }
+}
 </script>
 
 <style lang="scss">
