@@ -3,7 +3,7 @@
     <div id="nav">
         <router-link to="/">ACTIVE-FRAME</router-link>
         <router-link to="/about">About</router-link>
-        <img src="./assets/images/menu.svg" alt="menu" id="rightMenu"/>
+        <img src="./assets/images/menu.svg" alt="open_menu" id="rightMenu"/>
     </div>
     <div id="content">
         <router-view/>
@@ -20,6 +20,13 @@
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#content {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 700px;
+  height: 100vh;
 }
 
 #nav {
@@ -40,7 +47,7 @@
       color: #42b983;
     }
   }
-  #rightMenu {
+  #rightMenu{
     width: 24px;
     height: 24px;
     float: right;
@@ -53,12 +60,5 @@
       display: none;
     }
   }
-}
-#content {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1200px;
-  min-height: 700px;
-  height: 100vh;
 }
 </style>
