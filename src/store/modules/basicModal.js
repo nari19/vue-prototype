@@ -1,18 +1,18 @@
 const state = {
     isShow: false
-  }
+}
   
-  const mutations = {
+const mutations = {
     show (state) {
-      state.isShow = true
+        state.isShow = true
     },
     hide (state) {
-      state.isShow = false
+        state.isShow = false
     }
-  }
-  
-  export default {
+}
+
+export default {
     namespaced: true,
     state,
     mutations
-  }
+}

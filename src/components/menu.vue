@@ -1,6 +1,7 @@
 <!-- https://www.nxworld.net/tips/12-css-hamburger-menu-active-effect.html -->
 <template>
-  <div id="menu" v-bind:class="{active:isActive}" v-on:click="isActive=!isActive" >
+  <div id="menu" v-bind:class="{active:isActive}" 
+      v-on:click="isActive=!isActive, basicModalShow" >
     <div class="menu-trigger">
         <span></span>
         <span></span>
@@ -11,8 +12,15 @@
 
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
-data(){
+  name: 'app',
+  methods: {
+    ...mapMutations('basicModal', {
+      basicModalShow: 'show'
+    })
+  },
+  data(){
 　  return {
   　   isActive:false
   　};
