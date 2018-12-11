@@ -2,8 +2,6 @@
   <div class="about">
     <MainObject msg="MainObject"/>
     <SubObject msg="SubObject"/>
-    <FormInfo msg="FormInfo"/>
-    <TextInfo msg="TextInfo"/>
   </div>
 </template>
 

@@ -12,18 +12,11 @@
 
 <script>
 export default {
-  data(){
- 　  return {
-   　   isActive:false
-   　};
-　},
-  computed: {
-    sideMenu: function() {
-      if(isActive == false) {
-        
-      }
-    }
-  }
+data(){
+　  return {
+  　   isActive:false
+  　};
+　}
 }
 </script>
 

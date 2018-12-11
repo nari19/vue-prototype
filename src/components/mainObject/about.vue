@@ -15,5 +15,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  @import "./style.scss";
+@import "./style.scss";
+.mainObject {
+  height: 90%;
+}
 </style>
