@@ -2,7 +2,7 @@
     width: 70%;
     height: 51%;
     position: absolute;
-    top: 9%;
+    top: 68px;
     left: 1%;
     background-color: #ff7657;
 }
@@ -11,7 +11,7 @@
     .mainObject {
         width: 98%;
         height: 38%;
-        top: 9%;
+        top: 68px;
         left: 1%;
     }
 }
@@ -19,23 +19,23 @@
     .mainObject {
         width: 98%;
         height: 45%;
-        top: 9%;
+        top: 68px;
         left: 1%;
     }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     .mainObject {
         width: 70%;
-        height: 51%;
-        top: 9%;
+        height: 52%;
+        top: 68px;
         left: 1%;
     }
 }
 @media screen and (min-width:1024px) {
     .mainObject {
         width: 70%;
-        height: 51%;
-        top: 9%;
+        height: 52%;
+        top: 68px;
         left: 1%;
     }
 }

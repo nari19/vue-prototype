@@ -17,6 +17,6 @@ export default {
 <style scoped lang="scss">
 @import "./style.scss";
 .mainObject {
-  height: 90%;
+  height: 90.5%;
 }
 </style>

@@ -17,7 +17,7 @@ data(){
   　   isActive:false
   　};
 　}
-}
+};
 </script>
 
 <style lang="scss">
