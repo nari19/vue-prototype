@@ -22,17 +22,17 @@ export default {
   },
   data(){
 　  return {
-  　   isActive:false
-  　};
-　}
-};
+      isActive:false
+    };
+  }
+}
 </script>
 
 <style lang="scss">
 @media screen and (min-width:768px) { // custom
-    #menu {
-        display: none;
-    }
+  #menu {
+      display: none;
+  }
 }
 .menu-trigger,
 .menu-trigger span {

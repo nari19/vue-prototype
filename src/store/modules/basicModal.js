@@ -1,3 +1,4 @@
+// https://rara-world.com/vue-cli-router-vuex/
 const state = {
     isShow: false
 }
